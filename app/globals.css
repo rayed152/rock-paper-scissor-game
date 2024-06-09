@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  min-height: 100vh;
+  background-image: radial-gradient(hsl(214, 47%, 23%), hsl(237, 49%, 15%));
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+.rock-bg {
+  background-image: radial-gradient(hsl(349, 71%, 52%), hsl(349, 70%, 56%));
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 100%;
+}
+
+.paper-bg {
+  background-image: radial-gradient(hsl(230, 89%, 62%), hsl(230, 89%, 65%));
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 100%;
+}
+
+.scissors-bg {
+  background-image: radial-gradient(hsl(39, 89%, 49%), hsl(40, 84%, 53%));
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 100%;
+}
